@@ -1,0 +1,131 @@
+pageInfo:
+  title: KASI Mission Control
+  logo: https://edukasi.tech/favicon-192.png
+  description: Knowledge and Skills International — Operations Hub
+
+appConfig:
+  theme: nord
+  layout: auto
+  iconSize: medium
+  language: en
+  statusCheck: true
+  statusCheckInterval: 300
+  preventWriteToDisk: true
+  disableConfiguration: false
+  auth:
+    users:
+      - user: kasi
+        hash: sha-256:a188cedaca2e9cd120e629139e82b9447a7ec4566d7cdbeb5abd9ea82cad1407
+        type: admin
+
+sections:
+
+  - name: Core Systems
+    icon: fas fa-layer-group
+    displayData:
+      cols: 2
+    items:
+      - title: Moodle LMS
+        description: Courses, PoE & assessments
+        url: https://lms.edukasi.tech
+        icon: hl-moodle
+        statusCheck: true
+        target: newtab
+      - title: SuiteCRM
+        description: Contacts, pipeline & deals
+        url: https://crm.edukasi.tech
+        icon: hl-suitecrm
+        statusCheck: true
+        target: newtab
+      - title: Mautic
+        description: Email campaigns & nurture
+        url: https://edukasi.tech/mautic/s/campaigns
+        icon: hl-mautic
+        statusCheck: true
+        target: newtab
+      - title: n8n Workflows
+        description: Automation & integrations
+        url: https://kasi-n8n-01.onrender.com
+        icon: hl-n8n
+        statusCheck: true
+        target: newtab
+
+  - name: Website & Admin
+    icon: fas fa-globe
+    displayData:
+      cols: 2
+    items:
+      - title: edukasi.tech
+        description: Public website
+        url: https://edukasi.tech
+        icon: fas fa-globe
+        statusCheck: true
+        target: newtab
+      - title: Mission Control
+        description: PHP ops dashboard
+        url: https://edukasi.tech/admin/dashboard.php?key=KASI_ADMIN_2026
+        icon: fas fa-tachometer-alt
+        target: newtab
+      - title: Applications Queue
+        description: Learner intake review
+        url: https://edukasi.tech/admin/applications.php
+        icon: fas fa-file-alt
+        target: newtab
+      - title: Practitioner Directory
+        description: Public assessor register
+        url: https://edukasi.tech/directory.html
+        icon: fas fa-users
+        target: newtab
+
+  - name: Infrastructure
+    icon: fas fa-server
+    displayData:
+      cols: 2
+    items:
+      - title: Supabase
+        description: Evidence pipeline DB
+        url: https://app.supabase.com
+        icon: hl-supabase
+        target: newtab
+      - title: Hostinger
+        description: Web hosting & files
+        url: https://hpanel.hostinger.com
+        icon: hl-hostinger
+        target: newtab
+      - title: Render
+        description: n8n & Dashy hosting
+        url: https://dashboard.render.com
+        icon: hl-render
+        target: newtab
+      - title: Twilio
+        description: WhatsApp messaging
+        url: https://console.twilio.com
+        icon: hl-twilio
+        statusCheck: true
+        target: newtab
+
+  - name: QCTO & Compliance
+    icon: fas fa-check-circle
+    displayData:
+      cols: 2
+    items:
+      - title: QCTO Portal
+        description: Accreditation submission
+        url: https://www.qcto.org.za
+        icon: fas fa-university
+        target: newtab
+      - title: Services SETA
+        description: LMIS assessor register
+        url: https://www.serviceseta.org.za
+        icon: fas fa-sitemap
+        target: newtab
+      - title: SAQA
+        description: Qualification verification
+        url: https://www.saqa.org.za
+        icon: fas fa-award
+        target: newtab
+      - title: Oracle Cloud
+        description: ARM server (capacity retry)
+        url: https://cloud.oracle.com
+        icon: hl-oracle
+        target: newtab
