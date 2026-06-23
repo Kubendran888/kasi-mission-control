@@ -15,7 +15,7 @@ appConfig:
   auth:
     users:
       - user: kasi
-        hash: sha-256:a188cedaca2e9cd120e629139e82b9447a7ec4566d7cdbeb5abd9ea82cad1407
+        hash: $2b$10$ie/2Mjbnrx8qhX5nn5Hlh.UFhRPVAzojQLIXSzqRAapij65QhukS6
         type: admin
 
 sections:
