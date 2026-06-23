@@ -11,6 +11,7 @@ appConfig:
   statusCheck: true
   statusCheckInterval: 300
   preventWriteToDisk: true
+  enableServiceWorker: true
   disableConfiguration: false
   auth:
     users:
