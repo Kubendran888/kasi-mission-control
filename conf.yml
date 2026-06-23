@@ -15,7 +15,7 @@ appConfig:
   auth:
     users:
       - user: kasi
-        hash: $2b$10$ie/2Mjbnrx8qhX5nn5Hlh.UFhRPVAzojQLIXSzqRAapij65QhukS6
+        hash: '$2b$10$ie/2Mjbnrx8qhX5nn5Hlh.UFhRPVAzojQLIXSzqRAapij65QhukS6'
         type: admin
 
 sections:
